@@ -1,0 +1,14 @@
+<!doctype html>
+    <header>
+        <script>
+            async function getHelloMessage() {
+                let name = document.getElementById('champ1').value;
+                alert(JSON.stringify({"Hello":`${name}`}));
+
+ }
+ </script>
+</header>
+<body>
+ <button onclick="getHelloMessage()">Cliquez ici</button>
+ <input type="text" id="champ1"/>
+</body>
